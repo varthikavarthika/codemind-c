@@ -4,19 +4,17 @@ int main()
     int n;
     scanf("%d",&n);
 int rev=0,t=n;
-while (n!=0)
-  {
-    rev=rev*10+n%10;
-    n=n/10;
-  }
+while(n!=0)
+    {
+        rev=rev*10 +n%10;
+        n=n/10;
+    }
     if(t==rev)
     {
-        printf("True
-");
+        printf("True");
     }
-else 
-   {
-       printf("False
-");
-   }
+    else
+    {
+        printf("False");
+    }
 }
